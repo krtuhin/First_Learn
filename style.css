@@ -17,7 +17,7 @@
     width: 100%;
     height: 70px;
     margin: auto;
-    background: linear-gradient(to top, rgba(6, 98, 151, 0.8)50%, rgba(6, 98, 151, 0.8)50%);
+    /* background: linear-gradient(to top, rgba(6, 98, 151, 0.8)50%, rgba(6, 98, 151, 0.8)50%); */
 }
 .icon{
     width: 200px;
@@ -238,4 +238,148 @@ a:hover{
 }
 .icons ion-icon:hover{
     color: orange;
+}
+
+@media screen and (max-width:1200px ) {
+    .nevbar{
+        width: 100%;
+    height: 100px;
+    
+    }
+    ul{
+        margin-left: 30px;
+    }
+    ul li{
+        margin-left: 50px;
+
+    }
+    ul li a{
+        font-size: 1.6vw;
+    }
+    .search{
+        margin-top: 15px;
+        margin-left: 200px;
+    }
+    .srch{
+        height: 30px;
+        width: 150px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .btn{
+        height: 30px;
+        width: 80px;
+    
+    }
+    .content h1, .content span{
+        font-size: 4.5vw;
+        
+    }
+    .content .par{
+        width: 80%;
+        font-size: 1.5vw;
+    }
+    .content .cn{
+        width: 13%;
+        font-size: 1.8vw;
+        height: 3.5vw;
+    }
+    .content a{
+        font-size: 1.6vw;
+    }
+
+}
+
+@media screen and (max-width: 1170px) {
+
+    .main{
+        padding-left: 20px;
+        height: 150vh;
+        width: 110%;
+    }
+    .form{
+        width: 250px;
+        height: 370px;
+        background: linear-gradient(to top, rgba(78, 74, 36, 0.8)50%, rgba(78, 74, 36, 0.8)50%);
+        top: 450px;
+        left: 70px;
+        border-radius: 10px;
+        padding: 25px;
+        position: absolute;
+    }
+        .form input{
+            width: 240px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 3px solid orange;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            font-size: 15px;
+            margin-top: 20px;
+            letter-spacing: 1px;
+            color: white;
+            font-family: sans-serif;
+        
+        }
+        .btnn{
+            font-size: 16px;
+
+        }
+        .form .link a{
+            font-size: 16px;
+        }
+    
+}
+
+@media screen and (max-width: 830px) {
+
+    .content h1, .content span{
+        font-size: 6vw;
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+    .content .cn{
+        width: 15%;
+        height: 4.5vw;
+        font-size: 2vw;
+    }
+    .content a{
+        font-size: 2vw;
+    }
+    .logo{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 440px;
+        font-size: 5vw;
+    }
+    ul li{
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .menu{
+        width: 100%;
+    }
+    ul{
+        margin-top: -5px;
+        margin-left: 0px;
+    }
+    ul li a{
+        font-size: 2vw;
+    }
+    .search{
+        width: 50%;
+        margin-left: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        position: relative;
+    }
+    .srch{
+        height: 30px;
+        width: 160px;
+        font-size: 12px;
+    }
 }
